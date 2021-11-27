@@ -1,6 +1,6 @@
 title: MSXVR Documentation
 description: >-
-MSXVR Documentation
+  MSXVR Documentation
 baseurl: "/docs"
 url: ""
 github_username:  msxrv
@@ -14,7 +14,7 @@ defaults:
       path: ""
       type: "documents"
     values:
-      layout: "documento"
+      layout: "documents"
   - scope:
       path: "" 
     values:
