@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(47, 47, 47);
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: #fff;
+}
+
+.navbar > .container {
+    flex-direction: row;
+}
+
+.navbar > .container {
+    display: flex;
+    transition: padding .1s ease;
+    padding: 10px 15px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.navbar .navbar-header .navbar-brand img {
+    width: auto;
+    max-height: 50px;
+}
+
+#header {
+    background-color: rgb(43, 76, 226);
+    padding: 20px;
+    margin: 0;
+}
+
+#manuales {
+    margin: 20px;
+}
