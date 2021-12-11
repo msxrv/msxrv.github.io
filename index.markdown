@@ -4,7 +4,7 @@
 ---
 {% assign categories = site.documents | group_by: "category" %}
 {% for category in categories %}
-<h1>Categoria {{ category.name }}
+<h1>Categorias {{ category.name }}
 <ul>
   {% for document in category.items %}
     <li>
