@@ -1,5 +1,5 @@
 ---
-name: Como crear un app
+name: Como crear un ejecutable
 author: Alberto
 category: programming
 ---

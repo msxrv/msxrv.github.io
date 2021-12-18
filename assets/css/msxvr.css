@@ -29,9 +29,17 @@ nav {
 
 #header {
     background-color: rgb(43, 76, 226);
+    border-bottom: 1px solid rgb(17, 31, 92);
+    border-top: 1px solid rgb(17, 31, 92);
     color:rgb(255, 255, 255);
     padding: 20px;
     margin: 0;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 960px;
 }
 
 #manuales {

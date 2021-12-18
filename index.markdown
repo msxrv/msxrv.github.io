@@ -9,16 +9,16 @@
     </div>
     <div>
       <a href="https://www.youtube.com/c/MSXVRComputer">Canal Youtube</a>
-      <p>MSXVR</p>
+      <p>Tutoriales, para tu MSXVR</p>
     </div>
   </div>
   <div class="box">
-    <h3>Chat MSXVR</h3>
+    <a href="https://www.guilded.gg/i/pPAaqQaE">Chat MSXVR</a>
     <p>Chat oficial de la comunidad MSXVR</p>
   </div>
   <div class="box">
     <a href="http://msxvr.es/doc/forum/">Forum MSXVR</a>
-    <p>Forum oficial de la comunidad MSXVR</p>
+    <p>Anuncia o discute cualquier tema relacionado con el MSXVR</p>
   </div>
   <div class="box">
     <h3>Github</h3>
