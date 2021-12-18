@@ -40,6 +40,9 @@ nav {
 
 .divider {
     background-color: rgb(210, 210, 210);
+    border-bottom: 1px solid rgb(190, 190, 190);
+    border-top: 1px solid rgb(190, 190, 190);
+    color:rgb(24, 31, 82, 1);
     padding: 1px 10px;
 }
 
@@ -61,7 +64,6 @@ ul {
 }
 
 li {
-    font-size: 0.8em;
 }
 
 a {
@@ -73,5 +75,6 @@ code {
     color:rgb(255, 255, 255);
     display: block;
     margin: 20px;
+    max-width: 600px;
     padding: 5px;
 }

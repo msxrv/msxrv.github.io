@@ -4,11 +4,15 @@
 ---
 <div class="row">
   <div class="box">
+    <a href="https://www.youtube.com/c/MSXVRComputer">Canal Youtube</a>
+    <p>MSXVR</p>
+  </div>
+  <div class="box">
     <h3>Chat MSXVR</h3>
     <p>Chat oficial de la comunidad MSXVR</p>
   </div>
   <div class="box">
-    <h3>Forum MSXVR</h3>
+    <a href="http://msxvr.es/doc/forum/">Forum MSXVR</a>
     <p>Forum oficial de la comunidad MSXVR</p>
   </div>
   <div class="box">
@@ -28,7 +32,7 @@
     {% assign primeros_pasos = site.documents | where: "category", "primeros_pasos" %}
       {% for document in primeros_pasos %}
         <li>
-          <h2><a href="{{ document.url }}">{{ document.name }}</a></h2>
+          <a href="{{ document.url }}">{{ document.name }}</a>
           <h3>{{ document.position }}</h3>
         </li>
       {% endfor %}
@@ -41,7 +45,7 @@
       {% assign programacion = site.documents | where: "category", "programming" %}
       {% for document in programacion %}
         <li>
-          <h2><a href="{{ document.url }}">{{ document.name }}</a></h2>
+          <a href="{{ document.url }}">{{ document.name }}</a>
           <h3>{{ document.position }}</h3>
         </li>
       {% endfor %}
@@ -70,10 +74,20 @@
     </ul>
   </div>
     <div class="box">
+    <h1>Utilidades MSX</h1>
+    <ul>
+        <li>
+          <h2><a href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">MSX-HUB</a></h2>
+          <h2><a href="https://www.louthrax.net/mgr/">Sofarun</a></h2>
+          <h2><a href="https://www.msx.org/wiki/MultiMente">MultiNente</a></h2>
+        </li>
+    </ul>
+  </div>
+  <div class="box">
     <h1>Libros sobre el MSX</h1>
     <ul>
         <li>
-          <h2><a href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">MSX by Margaret Norman</a></h2>
+          <h2><a href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">MSX Made Simple</a></h2>
         </li>
     </ul>
   </div>
