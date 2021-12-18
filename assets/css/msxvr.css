@@ -22,7 +22,7 @@ nav {
     align-items: center;
 }
 
-.navbar .navbar-header .navbar-brand img {
+.navbar img {
     width: auto;
     max-height: 50px;
 }

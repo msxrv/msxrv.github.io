@@ -4,8 +4,13 @@
 ---
 <div class="row">
   <div class="box">
-    <a href="https://www.youtube.com/c/MSXVRComputer">Canal Youtube</a>
-    <p>MSXVR</p>
+    <div>
+      <img width="30px" src="assets/img/github.png">
+    </div>
+    <div>
+      <a href="https://www.youtube.com/c/MSXVRComputer">Canal Youtube</a>
+      <p>MSXVR</p>
+    </div>
   </div>
   <div class="box">
     <h3>Chat MSXVR</h3>
@@ -47,6 +52,19 @@
         <li>
           <a href="{{ document.url }}">{{ document.name }}</a>
           <h3>{{ document.position }}</h3>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="box">
+    <h1>Tutoriales</h1>
+    <ul>
+      {% assign tutoriales = site.documents | where: "category", "tutoriales" %}
+      {% for tutorial in tutoriales %}
+        <li>
+          <a href="{{ tutorial.url }}">{{ tutorial.name }}</a>
+          <h3>{{ tutorial.position }}</h3>
         </li>
       {% endfor %}
     </ul>
