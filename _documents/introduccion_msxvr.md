@@ -3,4 +3,7 @@ name: Introduccion al MSXVR
 author: Alberto
 category: primeros_pasos
 ---
-- Bienvenidos al MSXVR
+{:toc}
+# Bienvenidos al MSXVR
+## dsfsd
+Bienveniros

@@ -2,33 +2,82 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 ---
-<div id="">
-  <h3>Comunidad MSXVR</h3>
-  <h3>Forum de la comunidad</h3>
-  <h3>Codigo</h3>
+<div class="row">
+  <div class="box">
+    <h3>Chat MSXVR</h3>
+    <p>Chat oficial de la comunidad MSXVR</p>
+  </div>
+  <div class="box">
+    <h3>Forum MSXVR</h3>
+    <p>Forum oficial de la comunidad MSXVR</p>
+  </div>
+  <div class="box">
+    <h3>Github</h3>
+    <p>Repositorio oficial de codigo con ejemplos</p>
+  </div>
 </div>
 
-{% assign categories = site.documents | where: "category", "primeros_pasos" %}
-<h1>Primeros pasos</h1>
-<ul>
-  {% for document in category.items %}
-    <li>
-      <h2><a href="{{ document.url }}">{{ document.name }}</a></h2>
-      <h3>{{ document.position }}</h3>
-    </li>
-  {% endfor %}
-</ul>
+<div class="divider">
+  <h2>Todo sobre el MSXVR</h2>
+</div>
 
-{% assign categories = site.documents | where: "category", "programacion" %}
-<h1>Aprende a programar</h1>
-<ul>
-  {% for document in category.items %}
-    <li>
-      <h2><a href="{{ document.url }}">{{ document.name }}</a></h2>
-      <h3>{{ document.position }}</h3>
-    </li>
-  {% endfor %}
-</ul>
+<div class="row">
+  <div class="box">
+    <h1>Primeros pasos</h1>
+    <ul>
+    {% assign primeros_pasos = site.documents | where: "category", "primeros_pasos" %}
+      {% for document in primeros_pasos %}
+        <li>
+          <h2><a href="{{ document.url }}">{{ document.name }}</a></h2>
+          <h3>{{ document.position }}</h3>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="box">
+    <h1>Aprende a programar</h1>
+    <ul>
+      {% assign programacion = site.documents | where: "category", "programming" %}
+      {% for document in programacion %}
+        <li>
+          <h2><a href="{{ document.url }}">{{ document.name }}</a></h2>
+          <h3>{{ document.position }}</h3>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="divider">
+  <h2>Recursos MSX</h2>
+</div>
+
+<div class="row">
+  <div class="box">
+    <h1>Recursos MSX</h1>
+    <ul>
+        <li>
+          <h2><a href="http://www.lavandeira.net/relearning-msx/">Relearning MSX</a></h2>
+          <p>Series of articles about developing software for MSX computers</p>
+        </li>
+        <li>
+          <h2><a href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">MSX-DOS</a></h2>
+        </li>
+        <li>
+          <h2><a href="https://konamiman.github.io/MSX2-Technical-Handbook/">MSX2 Technical Handbook</a></h2>
+        </li>
+    </ul>
+  </div>
+    <div class="box">
+    <h1>Libros sobre el MSX</h1>
+    <ul>
+        <li>
+          <h2><a href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">MSX by Margaret Norman</a></h2>
+        </li>
+    </ul>
+  </div>
+</div>
 
 <div id="manuales" style="display:none">
   <div id="pasos">
@@ -63,5 +112,3 @@
       </section>
   </div>
 </div>
-
-<a href="documents/introduccion_msxvr.html">Visita el tutorial</a>
