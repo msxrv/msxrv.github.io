@@ -13,7 +13,7 @@
         </div>
         <div class="msxvr-link-description">
           <a href="https://www.youtube.com/c/MSXVRComputer">Canal Youtube</a>
-          <p>Tutoriales, para tu MSXVR</p>
+          <p>Demos, tutoriales y otros videos para aprender mas sobre tu MSXVR</p>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
         </div>
         <div class="msxvr-link-description">
           <a href="https://www.guilded.gg/i/pPAaqQaE">Guilded</a>
-          <p>Chat de la comunidad</p>
+          <p>Unete al chat de la comunidad de usuarios y desarolladores</p>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@
         </div>
         <div class="msxvr-link-description">
           <a href="https://github.com/msxvr">Github</a>
-          <p>Repositorio oficial de codigo con ejemplos</p>
+          <p>Repositorio oficial con ejemplos de codigo y utilidades para tu maquina</p>
         </div>
       </div>
     </div>

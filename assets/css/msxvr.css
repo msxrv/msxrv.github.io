@@ -102,6 +102,7 @@ section {
 .section .section-header {
     background-color: rgb(210, 210, 210);
     border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
     color:rgb(24, 31, 82, 1);
     padding: 1px 10px;
 }
@@ -117,12 +118,14 @@ section {
     box-shadow: 0 1.6px 3.6px 0 var(--theme-box-shadow-medium),0 .3px .9px 0 var(--theme-box-shadow-light);
     display: block;
     margin: 10px;
-    padding: 1.25rem;
+    padding: 1rem 0 1rem 0;
+    width: 25%;
 }
 
 .box {
     display: block;
-    padding: 1.25rem;
+    padding: 0 1.25rem;
+    width: 33%;
 }
 
 ul {
@@ -190,7 +193,7 @@ footer.footer.footer-black a {
 }
 
 .msxvr-link-logo {
-    margin: 1rem;
+    margin: 0 0.6rem;
 }
 
 .msxvr-link-logo .image.is-64x64 {
@@ -206,7 +209,11 @@ footer.footer.footer-black a {
     width: 100%;
 }
 
-.msxvr-link-description {
-    
+.msxvr-link-description a {
+    font-weight: bold;
+}
+
+.msxvr-link-description p {
+    margin: 0;
 }
 
