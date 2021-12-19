@@ -2,6 +2,7 @@
 name: Manual de programacion
 author: Alberto
 category: programming
+order: 1
 ---
 # Editorial
 MSX, MSX2, MSX2+, MSXturboR y MSX-DOS son marcas registradas de MSX Association

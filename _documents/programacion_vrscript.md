@@ -2,6 +2,7 @@
 name: Programacion en VR-Script
 author: Alberto
 category: programming
+order: 2
 ---
 # Lesson #001: Edición/Introducción
 [Codigo fuente](https://github.com/msxvr/documentation/tree/master/tutorial_1)
