@@ -111,7 +111,7 @@
   </div>
   <div class="row">
     <div class="box">
-      <h1>Recursos MSX</h1>
+      <h1>Documentacion tecnica</h1>
       <ul>
           <li>
             <a href="http://www.lavandeira.net/relearning-msx/">Relearning MSX</a>
