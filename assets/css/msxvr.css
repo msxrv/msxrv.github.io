@@ -182,3 +182,31 @@ footer.footer.footer-black a {
 .footer-big .footer-menu li a {
     padding: 15px;
 }
+
+
+
+.msxvr-link {
+    display: flex;
+}
+
+.msxvr-link-logo {
+    margin: 1rem;
+}
+
+.msxvr-link-logo .image.is-64x64 {
+    height: 64px;
+    margin: 0;
+    width: 64px;
+}
+
+.msxvr-link-logo .image img, .image svg {
+    display: block;
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+}
+
+.msxvr-link-description {
+    
+}
+

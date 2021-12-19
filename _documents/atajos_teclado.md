@@ -4,6 +4,11 @@ author: aobradors
 category: primeros_pasos
 ---
 # GLOBALES
+
+| -------------             | -------------         |
+| **LCTRL + Q**             | Salir                 |
+| **LCTRL + ALT + DEL**     | Reiniciar el Sistema  |
+
 **LCTRL + Q** : Salir
 
 LCTRL + ALT + DEL : Reiniciar el Sistema

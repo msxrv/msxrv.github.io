@@ -5,25 +5,56 @@
 <div class="section">
   <div class="row">
     <div class="box-links">
-      <div>
-        <img width="30px" src="assets/img/github.png">
+      <div class="msxvr-link">
+        <div class="msxvr-link-logo">
+          <figure class="image is-64x64">
+            <img src="assets/img/youtube-logo-2431.png">
+          </figure>
+        </div>
+        <div class="msxvr-link-description">
+          <a href="https://www.youtube.com/c/MSXVRComputer">Canal Youtube</a>
+          <p>Tutoriales, para tu MSXVR</p>
+        </div>
       </div>
-      <div>
-        <a href="https://www.youtube.com/c/MSXVRComputer">Canal Youtube</a>
-        <p>Tutoriales, para tu MSXVR</p>
+    </div>
+    <div class="box-links">
+      <div class="msxvr-link">
+        <div class="msxvr-link-logo">
+          <figure class="image is-64x64">
+            <img src="assets/img/guilded-logo-reco.png">
+          </figure>
+        </div>
+        <div class="msxvr-link-description">
+          <a href="https://www.guilded.gg/i/pPAaqQaE">Guilded</a>
+          <p>Chat de la comunidad</p>
+        </div>
       </div>
     </div>
     <div class="box-links">
-      <a href="https://www.guilded.gg/i/pPAaqQaE">Guilded</a>
-      <p>Chat de la comunidad</p>
+      <div class="msxvr-link">
+        <div class="msxvr-link-logo">
+          <figure class="image is-64x64">
+            <img src="assets/img/forum-icon-23.jpeg">
+          </figure>
+        </div>
+        <div class="msxvr-link-description">
+          <a href="http://msxvr.es/doc/forum/">Forum MSXVR</a>
+          <p>Anuncia o discute cualquier tema relacionado con el MSXVR</p>
+        </div>
+      </div>
     </div>
     <div class="box-links">
-      <a href="http://msxvr.es/doc/forum/">Forum MSXVR</a>
-      <p>Anuncia o discute cualquier tema relacionado con el MSXVR</p>
-    </div>
-    <div class="box-links">
-      <a href="https://github.com/msxvr">Github</a>
-      <p>Repositorio oficial de codigo con ejemplos</p>
+      <div class="msxvr-link">
+        <div class="msxvr-link-logo">
+          <figure class="image is-64x64">
+            <img src="assets/img/GitHub-Mark-64px.png">
+          </figure>
+        </div>
+        <div class="msxvr-link-description">
+          <a href="https://github.com/msxvr">Github</a>
+          <p>Repositorio oficial de codigo con ejemplos</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
