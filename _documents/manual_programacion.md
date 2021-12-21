@@ -5,11 +5,8 @@ category: programming
 toc: true
 order: 1
 ---
-<nav>
-  <h4>Tabla de Contenido</h4>
-  * this unordered seed list will be replaced by toc as unordered list
-  {:toc}
-</nav>
+* Placeholder for Table of Content (Must not be removed)
+{:toc}
 
 # Editorial
 MSX, MSX2, MSX2+, MSXturboR y MSX-DOS son marcas registradas de MSX Association
