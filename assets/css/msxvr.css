@@ -86,6 +86,10 @@ nav {
     padding: 10px;
 }
 
+#table-of-contents ul {
+    list-style: none;
+}
+
 section {
     margin: 0 auto;
     max-width: 960px;
@@ -105,6 +109,10 @@ section {
     border-radius: 3px;
     color:rgb(24, 31, 82, 1);
     padding: 1px 10px;
+}
+
+.section-header h2 {
+    margin: 5px 0;
 }
 
 .row {
@@ -128,12 +136,9 @@ section {
     width: 33%;
 }
 
-ul {
+.box ul {
     list-style: none;
     padding: 0;
-}
-
-li {
 }
 
 a {
@@ -210,6 +215,7 @@ footer.footer.footer-black a {
 }
 
 .msxvr-link-description a {
+    font-size: 1.1em;
     font-weight: bold;
 }
 

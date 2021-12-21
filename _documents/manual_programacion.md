@@ -2,11 +2,15 @@
 name: Manual de programacion
 author: Alberto
 category: programming
+toc: true
 order: 1
 ---
-{:toc}
-TOC
-{{ content | toc_only }}
+<nav>
+  <h4>Tabla de Contenido</h4>
+  * this unordered seed list will be replaced by toc as unordered list
+  {:toc}
+</nav>
+
 # Editorial
 MSX, MSX2, MSX2+, MSXturboR y MSX-DOS son marcas registradas de MSX Association
 / MSX Licensing Corporation.

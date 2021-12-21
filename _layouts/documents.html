@@ -40,9 +40,14 @@
       <h1>{{ page.name }}</h1>
       <h3>Por {{ page.author }}</h3>
     </div>
-    <section>
-      {{ content }}    
-    </section>
+    <div id="content">
+        <div id="table-of-contents">
+            {% toc %}
+        </div>
+        <section>
+        {{ content }}    
+        </section>
+    </div>
     <footer class="footer footer-black footer-big">
       <hr/>
       <div class="hestia-bottom-footer-content">
