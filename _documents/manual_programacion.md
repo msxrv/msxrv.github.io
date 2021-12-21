@@ -2,7 +2,6 @@
 name: Manual de programacion
 author: Alberto
 category: programming
-toc: true
 order: 1
 ---
 * Placeholder for Table of Content (Must not be removed)
