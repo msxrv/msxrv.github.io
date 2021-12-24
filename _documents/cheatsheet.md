@@ -6,17 +6,15 @@ category: primeros_pasos
 # Cargando software con PLAY
 Hemos recopilado algunos comandos útiles para ejecutar con el player de MSXVR (Play).
 
-#Descripción
-Comando
-Ejecutar fichero.rom usando la máquina MSX2 por defecto del sistema	PLAY FICHERO.ROM /MSX2
-Ejecutar fichero.rom usando la máquina MSX2+ por defecto del sistema	PLAY FICHERO.ROM /MSX2P
-PLAY FICHERO.ROM /MSX2+
-Ejecutar fichero.rom usando la máquina MSX2+ Extra	PLAY FICHERO.ROM /MODEL MSX2P_EXTRA
-Ejecutar fichero.rom usando la máquina MSX Turbo R por defecto del sistema	PLAY FICHERO.ROM /MSXTR
-Ejecutar un cartucho introducido en el SLOT 3	1) GR /OFF
-2) Insertar Stevedore en SLOT#3
-3) GR /ON
-4) En VR-DOS escribir: play *.rom /mapper vri /grslot1 3
+|--------------|---------|
+|  Descripción | Comando |
+|:-------------|:--------|
+| Ejecutar fichero.rom usando la máquina MSX2 por defecto del sistema | PLAY FICHERO.ROM /MSX2 |
+| Ejecutar fichero.rom usando la máquina MSX2+ por defecto del sistema | PLAY FICHERO.ROM /MSX2P o PLAY FICHERO.ROM /MSX2+ | 
+| Ejecutar fichero.rom usando la máquina MSX2+ Extra | PLAY FICHERO.ROM /MODEL MSX2P_EXTRA |
+| Ejecutar fichero.rom usando la máquina MSX Turbo R por defecto del sistema | PLAY FICHERO.ROM /MSXTR |
+| Ejecutar un cartucho introducido en el SLOT 3	| 1) GR /OFF 2) Insertar Stevedore en SLOT#3 3) GR /ON 4) En VR-DOS escribir: play *.rom /mapper vri /grslot1 3 |
+
 Ejecutar un cartucho introducido en el SLOT 4	1) GR /OFF
 2) Insertar Stevedore en SLOT#4
 3) GR /ON
