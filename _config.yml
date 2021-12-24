@@ -16,14 +16,14 @@ collections:
 
 defaults:
   - scope:
+      path: "" 
+    values:
+      layout: "default"  
+  - scope:
       path: ""
       type: "documents"
     values:
-      layout: "documents"
-  - scope:
-      path: "" 
-    values:
-      layout: "default"      
+      layout: "documents"    
 
 # Build settings
 theme: minima

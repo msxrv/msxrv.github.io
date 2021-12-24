@@ -5,46 +5,29 @@ category: primeros_pasos
 ---
 # GLOBALES
 
-| -------------             | -------------         |
-| **LCTRL + Q**             | Salir                 |
-| **LCTRL + ALT + DEL**     | Reiniciar el Sistema  |
-
-**LCTRL + Q** : Salir
-
-LCTRL + ALT + DEL : Reiniciar el Sistema
-
-LCTRL + PRINT : Captura de pantalla en "%SYSTEM:/user/apps/player"
-
-LCTRL + ALT + B : Abrir consola VR-BASIC
-
-LCTRL + ALT + D : Abrir consola VR-DOS
-
-LCTRL + ALT + E : Abrir FILE EXPLORER
-
-LCTRL + ALT + RIGHT : Cambiar a siguiente proceso
-
-LCTRL + ALT + F : Mostrar FPS
-
-LCTRL + ALT + ESC : Entrar en Modo Seguro
-
-LCTRL + RIGHT : Cambiar al siguiente proceso
-
-LCTRL + LEFT : Cambiar al anterior proceso
-
-LCTRL + ALT + M / MENU : Abrir el menú
-
-LCTRL + SHIFT + Q: cerrar los MDI (las ventanitas flotantes)
+| -------------                 | -------------         |
+| **LCTRL + Q**                 | Salir                 |
+| **LCTRL + ALT + DEL**         | Reiniciar el Sistema  |
+| **LCTRL + PRINT**             | Captura de pantalla en "%SYSTEM:/user/apps/player" |
+| **LCTRL + ALT + B**           | Abrir consola VR-BASIC |
+| **LCTRL + ALT + D**           | Abrir consola VR-DOS | 
+| **LCTRL + ALT + E**           | Abrir FILE EXPLORER |
+| **LCTRL + ALT + RIGHT**       | Cambiar a siguiente proceso |
+| **LCTRL + ALT + F**           | Mostrar FPS |
+| **LCTRL + ALT + ESC**         | Entrar en Modo Seguro |
+| **LCTRL + RIGHT**             | Cambiar al siguiente proceso |
+| **LCTRL + LEFT**              | Cambiar al anterior proceso |
+| **LCTRL + ALT + M / MENU**    | Abrir el menú |
+| **LCTRL + SHIFT + Q**         | cerrar los MDI (las ventanitas flotantes) |
 
 # VR-SYSTEM / VR-VIEW
-LCTRL + D / LCTRL + ALT + D : Abrir una nueva consola VR-DOS
 
-LCTRL + B / LCTRL + ALT + B : Abrir el VR-BASIC
-
-LCTRL + E / LCTRL + ALT + E : Abrir FILE EXPLORER
-
-INSERT : Añadir enlace
-
-LCTRL + R / File->Run : Ejecutar fichero
+| -------------                     | -------------         |
+| **LCTRL + D / LCTRL + ALT + D**   | Abrir una nueva consola VR-DOS |
+| **LCTRL + B / LCTRL + ALT + B**   | Abrir el VR-BASIC |
+| **LCTRL + E / LCTRL + ALT + E**   | Abrir FILE EXPLORER |
+| **INSERT**                        | Añadir enlace |
+| **LCTRL + R / File->Run**         | Ejecutar fichero |
 
 # VR-DOS
 LCTRL + D : Abrir una nueva consola VR-DOS

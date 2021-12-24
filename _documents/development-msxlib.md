@@ -4,7 +4,7 @@ author: Alberto
 category: programming
 url: https://msxvr.com/vros-development-msxlib/
 ---
-# ¿Qué es?
+# ¿Qué es MSXLIB?
 Se trata de una librería para desarrollar juegos nativos compatibles MSX usando las herramientas que proporciona el MSXVR.
 
 # Contenido
