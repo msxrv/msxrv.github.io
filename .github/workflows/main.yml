@@ -21,12 +21,12 @@ jobs:
       
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Create folder
+      - name: Create Dist folder
         run: mkdir dist
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --from +pipe_tables  -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --metadata title="Cheatsheet"
+          args: --from pipe_tables  -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --metadata title="Cheatsheet"
 
       - uses: docker://pandoc/latex:2.9
         with:
