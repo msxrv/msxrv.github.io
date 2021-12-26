@@ -24,7 +24,11 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --verbose -s _documents/cheatsheet.md -o _documents/cheatsheet.pdf --from markdown+pipe_tables --metadata title="Cheatsheet"
+          args: --verbose -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --from markdown+pipe_tables --metadata title="Cheatsheet"
+
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: --verbose -s _documents/atajos_teclado.md -o dist/atajos.pdf --from markdown+pipe_tables --metadata title="Cheatsheet"
 
       # - uses: docker://pandoc/core:2.9
       #   with:
@@ -37,8 +41,8 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: cheatsheet.pdf
-          path:  _documents/cheatsheet.pdf
+          name: documents
+          path:  dist/*
 
       # - name: setup git config
       #   run: |
