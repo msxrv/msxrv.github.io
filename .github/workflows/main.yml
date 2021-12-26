@@ -37,7 +37,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: cheatsheet
+          name: cheatsheet.pdf
           path:  _documents/cheatsheet.pdf
 
       # - name: setup git config
