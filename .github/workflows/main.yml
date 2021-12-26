@@ -26,7 +26,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: +pipe_tables  -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --metadata title="Cheatsheet"
+          args: --from +pipe_tables  -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --metadata title="Cheatsheet"
 
       - uses: docker://pandoc/latex:2.9
         with:
