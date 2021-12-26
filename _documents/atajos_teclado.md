@@ -5,7 +5,7 @@ category: primeros_pasos
 ---
 # GLOBALES
 
-|:------------       |:------------         |:------------               |:-------   |
+|:------------|:------------|:------------|:-------|
 | **LCTRL + Q**                 | Salir                 | **LCTRL + ALT + F**           | Mostrar FPS |
 | **LCTRL + ALT + DEL**         | Reiniciar el Sistema  | **LCTRL + ALT + ESC**         | Entrar en Modo Seguro |
 | **LCTRL + PRINT**             | Captura de pantalla en "%SYSTEM:/user/apps/player" | **LCTRL + ALT + B**           | Abrir consola VR-BASIC |
@@ -16,7 +16,7 @@ category: primeros_pasos
 
 # VR-SYSTEM / VR-VIEW
 
-|:------------       |:------------         |:------------               |:-------   |
+|:------------|:------------|:------------|:-------|
 | **LCTRL + D / LCTRL + ALT + D**   | Abrir una nueva consola VR-DOS | **LCTRL + B / LCTRL + ALT + B**   | Abrir el VR-BASIC |
 | **LCTRL + E / LCTRL + ALT + E**   | Abrir FILE EXPLORER | **INSERT**                        | Añadir enlace |
 | **LCTRL + R / File->Run**         | Ejecutar fichero |
