@@ -1,5 +1,5 @@
 ---
-name: Libreria para desarollo nativo
+name: Libreria para desarollo nativo MSXLIB
 author: Alberto
 category: programming
 url: https://msxvr.com/vros-development-msxlib/
