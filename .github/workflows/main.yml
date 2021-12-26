@@ -24,7 +24,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args:  -s _documents/cheatsheet.md -o cheatsheet.pdf --metadata title="Cheatsheet"
+          args: --verbose -s _documents/cheatsheet.md -o _documents/cheatsheet.pdf --metadata title="Cheatsheet"
 
       # - uses: docker://pandoc/core:2.9
       #   with:
