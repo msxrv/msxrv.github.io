@@ -1,9 +1,8 @@
 ---
 name: Cheat Sheet
 author: Aorante
+from: markdown+pipe_tables
 category: primeros_pasos
-output: cheatsheet
-    variant: markdown+grid_tables
 ---
 # Cargando software con PLAY
 Hemos recopilado algunos comandos útiles para ejecutar con el player de MSXVR (Play).
