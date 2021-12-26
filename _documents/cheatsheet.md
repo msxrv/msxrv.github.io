@@ -7,12 +7,6 @@ category: primeros_pasos
 # Cargando software con PLAY
 Hemos recopilado algunos comandos útiles para ejecutar con el player de MSXVR (Play).
 
-fruit| price
------|-----:
-apple|2.05
-pear|1.37
-orange|3.09
-
 |  Descripción | Comando |
 |:-------------|:--------|
 | Ejecutar fichero.rom usando la máquina MSX2 por defecto del sistema | PLAY FICHERO.ROM /MSX2 |
