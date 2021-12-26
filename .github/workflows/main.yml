@@ -26,11 +26,11 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --from markdown-pipe_tables  -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --metadata title="Cheatsheet"
+          args: -f markdown+pipe_tables  -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --metadata title="Cheatsheet"
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --from markdown+pipe_tables  -s _documents/atajos_teclado.md -o dist/atajos.pdf --from markdown+pipe_tables --metadata title="Cheatsheet"
+          args: -f markdown+pipe_tables  -s _documents/atajos_teclado.md -o dist/atajos.pdf --from markdown+pipe_tables --metadata title="Cheatsheet"
 
       # - uses: docker://pandoc/core:2.9
       #   with:
