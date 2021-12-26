@@ -32,7 +32,6 @@ Hemos recopilado algunos comandos útiles para ejecutar con el player de MSXVR (
 # Entorno VRDOS
 Aquí encontrarás algunos comandos que te facilitarán la vida en el uso del entorno VRDOS. ¡Vuelve a sentir la línea de comandos en tus dedos!
 
-|--------------|---------|
 |  Descripción | Comando |
 |:-------------|:--------|
 | Fija la hora del sistema en la zona de España	| time /a /z Madrid |
@@ -48,7 +47,6 @@ Aquí encontrarás algunos comandos que te facilitarán la vida en el uso del en
 # Mantén a punto tu sistema MSXVR
 No te olvides de mantener al día tu MSXVR. Aquí puedes tener algunas ideas.
 
-|--------------|---------|
 |  Descripción | Comando |
 |:-------------|:--------|
 | Restaura todas las configuraciones de las Máquinas Virtuales a sus versiones originales | PKG /RESTORE VMACHINES |
@@ -60,7 +58,6 @@ No te olvides de mantener al día tu MSXVR. Aquí puedes tener algunas ideas.
 # A vueltas con el Debugger
 Aquí encontrarás algunas utilidades para facilitarte el uso del debugger.
 
-|--------------|---------|
 |  Descripción | Comando |
 |:-------------|:--------|
 | Ver o situarse en un segmento de memoria | VIEW dirección (ejemplo: 0xc000 para c000) |

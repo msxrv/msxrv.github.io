@@ -5,7 +5,7 @@ category: primeros_pasos
 ---
 # GLOBALES
 
-| :------------                 | :------------         | :------------                  | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | **LCTRL + Q**                 | Salir                 | **LCTRL + ALT + F**           | Mostrar FPS |
 | **LCTRL + ALT + DEL**         | Reiniciar el Sistema  | **LCTRL + ALT + ESC**         | Entrar en Modo Seguro |
 | **LCTRL + PRINT**             | Captura de pantalla en "%SYSTEM:/user/apps/player" | **LCTRL + ALT + B**           | Abrir consola VR-BASIC |
@@ -16,14 +16,14 @@ category: primeros_pasos
 
 # VR-SYSTEM / VR-VIEW
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | **LCTRL + D / LCTRL + ALT + D**   | Abrir una nueva consola VR-DOS | **LCTRL + B / LCTRL + ALT + B**   | Abrir el VR-BASIC |
 | **LCTRL + E / LCTRL + ALT + E**   | Abrir FILE EXPLORER | **INSERT**                        | Añadir enlace |
 | **LCTRL + R / File->Run**         | Ejecutar fichero |
 
 # VR-DOS
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | **LCTRL + D**                     | Abrir una nueva consola VR-DOS | **LCTRL + C** | Interrumpir ejecución |
 | **LCTRL + Z**         | Interrumpir entrada de datos (COPY CON) | LCTRL + K | Ir al inicio de la línea |
 | **LCTRL + R**         | Insertar | **LCTRL + H** | Retroceso |
@@ -37,7 +37,7 @@ category: primeros_pasos
 
 # VR-BASIC
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | **LCTRL + E** | Editor de código | **LCTRL + C** | Detener ejecución CTRL BREAK |
 | **LCTRL + V** | Pegar desde el portapapeles | **F11** | Reducir velocidad de ejecución |
 | **F12** | Aumentar velocidad de ejecución | **LCTRL + F12** | Intercambiar Máxima velocidad de ejecución y velocidad normal |
@@ -47,7 +47,7 @@ category: primeros_pasos
 
 # TextEditor
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | **LCTRL + N** | Archivo nuevo | **LCTRL + O** | Abrir archivo |
 | **LCTRL + Q** | Cerrar archivo y Salir | **LCTRL + S** | Guardar archivo |
 | **LCTRL + LSHIFT + S** | Guardar archivo como | **LCTRL + P** | Abrir/Cerrar panel de proyecto |
@@ -66,7 +66,7 @@ category: primeros_pasos
 
 # PLAYER
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | LCTRL + ALT + O | Gestor de disquetes | LCTRL + ALT + C | Abrir depurador CPU |
 | LCTRL + ALT + V | Abrir depurador VDP | LCTRL + ALT + Q | Cerrar aplicación |
 | LCTRL + ALT + 0 | Siguiente dispositivo de vídeo | LCTRL + ALT + 9 | Anterior dispositivo de vídeo |
@@ -79,24 +79,24 @@ category: primeros_pasos
 
 # VIRTUAL MACHINE
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | LCTRL + ALT + 8 | Permutar ajuste de vídeo | LCTRL + ALT + Q | Salir/Cerrar |
 | LCTRL + ALT + R | Resetear máquina virtual (como si apretases el botón del reset) |
 
 # ImageViewer
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | LCTRL + LSHIFT + G | Activar panel Grid | LEFT / RIGHT / UP / DOWN | Panning |
 | LCTRL + PAGEUP / LCTRL + PAGEDOWN | Zoom | HOME | Resetear Panning y Zoom |
 | LCTRL + Q | Salir/Cerrar |
 
 # Telnet
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | LCTRL + ALT + 8 | Permutar ajuste de vídeo | LCTRL + Q | Salir/Cerrar |
 | LCTRL + ALT + Q : Salir/Cerrar |
 
 # PDFViewer
 
-| :------------                     | :------------         | :------------          | :-------   |
+|:------------       |:------------         |:------------               |:-------   |
 | LCTRL + Rueda ratón | Ampliar/Reducir tamaño | LCTRL + Q | Salir/Cerrar |
