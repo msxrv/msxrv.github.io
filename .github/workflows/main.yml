@@ -37,8 +37,8 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: dist-without-markdown
-          path:  _documents/*.pdf
+          name: cheatsheet
+          path:  _documents/cheatsheet.pdf
 
       # - name: setup git config
       #   run: |
