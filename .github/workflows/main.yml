@@ -30,7 +30,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: -f markdown+pipe_tables  -s _documents/atajos_teclado.md -o dist/atajos.pdf --from markdown+pipe_tables --metadata title="Cheatsheet"
+          args: -f markdown+pipe_tables  -s _documents/atajos_teclado.md -o dist/atajos.pdf --metadata title="Atajos de teclado"
 
       # - uses: docker://pandoc/core:2.9
       #   with:

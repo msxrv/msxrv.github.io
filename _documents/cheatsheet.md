@@ -1,7 +1,6 @@
 ---
 name: Cheat Sheet
 author: Aorante
-from: markdown+pipe_tables
 category: primeros_pasos
 ---
 # Cargando software con PLAY
