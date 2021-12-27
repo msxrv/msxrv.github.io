@@ -41,7 +41,10 @@
       <h3>Por {{ page.autor }}</h3>
     </div>
     <div id="document-content">
-        <div id="document">{{ content }}</div>
+      <div id="document">
+        <div id="formats">Disponible en formato <a href="https://github.com/msxrv/documentos/raw/main/{{ page.title }}.pdf">PDF</a></div>
+        {{ content }}
+      </div>
     </div>
     <footer class="footer footer-black footer-big">
       <hr/>

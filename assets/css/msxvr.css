@@ -355,3 +355,8 @@ a:hover article h3 {
 .article p {
     margin: 5px 0;
 }
+
+#document #formats {
+    text-align: right;
+    margin: 10px 0;
+}
