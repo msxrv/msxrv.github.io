@@ -5,6 +5,7 @@ category: primeros_pasos
 ---
 # GLOBALES
 
+|             |             |             |        |
 |:------------|:------------|:------------|:-------|
 | **LCTRL + Q**                 | Salir                 | **LCTRL + ALT + F**           | Mostrar FPS |
 | **LCTRL + ALT + DEL**         | Reiniciar el Sistema  | **LCTRL + ALT + ESC**         | Entrar en Modo Seguro |
