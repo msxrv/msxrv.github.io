@@ -1,5 +1,5 @@
 ---
-titulo: Atajos de teclado
+titulo: Atajos de teclado de MSXVR
 descripcion: Atajos para VR-SYSTEM, VR-DOS, VR-BASIC, Player, etc.
 autor: aobradors
 categoria: primeros_pasos
