@@ -24,7 +24,7 @@ jobs:
 
       - uses: docker://pandoc/core:2.9
         with:
-          args:  -s manual.md --toc -o manual.html --metadata title="Manual de Usuario"
+          args:  -s _documents/manual.md --toc -o dist/manual.html --metadata title="Manual de Usuario"
 
       - uses: docker://pandoc/core:2.9
         with:
