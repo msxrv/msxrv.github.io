@@ -18,7 +18,6 @@ jobs:
         with:
           name: msxrv/documentos
           path: dist/
-          ref: refs/heads/release
 
       - uses: docker://pandoc/latex:2.9
         with:
