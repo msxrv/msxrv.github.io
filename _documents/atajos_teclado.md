@@ -1,7 +1,8 @@
 ---
-name: Atajos de teclado
-author: aobradors
-category: primeros_pasos
+titulo: Atajos de teclado
+descripcion: Atajos para VR-SYSTEM, VR-DOS, VR-BASIC, Player, etc.
+autor: aobradors
+categoria: primeros_pasos
 ---
 # GLOBALES
 

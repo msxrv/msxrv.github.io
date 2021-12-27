@@ -71,6 +71,16 @@ nav {
     display: none;
 }
 
+#header h1, .box h1 {
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
 #header {
     background-color: rgb(43, 76, 226);
     border-bottom: 1px solid rgb(17, 31, 92);
@@ -107,7 +117,6 @@ section {
     background-color: rgb(210, 210, 210);
     border: 1px solid rgb(190, 190, 190);
     border-radius: 3px;
-    color:rgb(24, 31, 82, 1);
     padding: 1px 10px;
 }
 
@@ -278,4 +287,36 @@ input#search-box {
     padding: 0;
     text-transform: uppercase;
     width: 100px;
+}
+
+article {
+    margin: 0 0 20px;
+}
+
+a.article {
+    color: black;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+a.article:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a.article:visited {
+    color: black;
+}
+
+a:hover article h3 {
+    text-decoration: underline;
+}
+
+.article h3 {
+    color: rgb(43, 76, 226);
+    margin: 0;
+}
+
+.article p {
+    margin: 5px 0;
 }

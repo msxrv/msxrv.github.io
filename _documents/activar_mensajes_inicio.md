@@ -1,7 +1,8 @@
 ---
-name: Activar los mensajes durante el inicio del sistema
-author: Rober
-category: tutoriales
+titulo: Activar los mensajes durante el inicio del sistema
+descripcion: Como ver los mensajes de carga del sistema Linux de la Raspberry Pi
+autor: Rober
+categoria: tutoriales
 ---
 Cuando pulsamos el botón de encendido la pantalla se tira un buen rato en negro hasta que vemos el logo del MSXVR. Durante ese tiempo lo que ocurre es que está cargando el sistema Linux de la Raspberry Pi pero es práctica habitual en las distribuciones Linux ocultar los mensajes de carga del sistema.
 

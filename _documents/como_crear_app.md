@@ -1,7 +1,8 @@
 ---
-name: Como crear un ejecutable
-author: Alberto
-category: programming
+titulo: Como crear un ejecutable
+descripcion: Crea un paquete .APP ejecutable por una máquina MSXVR.
+autor: Alberto
+categoria: programming
 order: 4
 ---
 # ¿Qué es un APP?

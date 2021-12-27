@@ -6,17 +6,6 @@
     <link rel="icon" href="https://msxvr.com/wp-content/uploads/2019/02/cropped-msx_vritualizer_squared_logo_1024-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="https://msxvr.com/wp-content/uploads/2019/02/cropped-msx_vritualizer_squared_logo_1024-180x180.png" />
     <link rel="stylesheet" href="/assets/css/msxvr.css">
-
-    <script>
-      window.addEventListener('loading',
-        function() {
-          var markdownToc = document.getElementById("markdown-toc");   
-          if (markdownToc != null) {
-            var toc = document.getElementById("toc");
-            toc.append(markdownToc);
-          }
-      }, false);      
-    </script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top hestia_left navbar-not-transparent">
@@ -48,8 +37,8 @@
     </nav>
     <div id="header">
       <p>Documentacion MSXVR</p>
-      <h1>{{ page.name }}</h1>
-      <h3>Por {{ page.author }}</h3>
+      <h1>{{ page.titulo }}</h1>
+      <h3>Por {{ page.autor }}</h3>
     </div>
     <div id="document-content">
         <div id="document">{{ content }}</div>

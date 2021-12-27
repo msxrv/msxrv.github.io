@@ -65,11 +65,15 @@
     <div class="box">
       <h1>Primeros pasos</h1>
       <ul>
-      {% assign primeros_pasos = site.documents | where: "category", "primeros_pasos" %}
-        {% for document in primeros_pasos %}
+      {% assign primeros_pasos = site.documents | where: "categoria", "primeros_pasos" %}
+        {% for doc in primeros_pasos %}
           <li>
-            <a href="{{ document.url }}">{{ document.name }}</a>
-            <h3>{{ document.position }}</h3>
+            <a class="article" href="{{ doc.url }}">
+              <article>
+                <h3>{{ doc.titulo }}</h3>
+                <p>{{ doc.descripcion }}</p>
+              </article>
+            </a>
           </li>
         {% endfor %}
       </ul>
@@ -78,11 +82,15 @@
     <div class="box">
       <h1>Aprende a programar</h1>
       <ul>
-        {% assign programacion = site.documents | where: "category", "programming" %}
-        {% for document in programacion %}
+        {% assign programacion = site.documents | where: "categoria", "programming" %}
+        {% for doc in programacion %}
           <li>
-            <a href="{{ document.url }}">{{ document.name }}</a>
-            <h3>{{ document.position }}</h3>
+            <a class="article" href="{{ doc.url }}">
+              <article>
+                <h3>{{ doc.titulo }}</h3>
+                <p>{{ doc.descripcion }}</p>
+              </article>
+            </a>
           </li>
         {% endfor %}
       </ul>
@@ -91,11 +99,15 @@
     <div class="box">
       <h1>Tutoriales</h1>
       <ul>
-        {% assign tutoriales = site.documents | where: "category", "tutoriales" %}
-        {% for tutorial in tutoriales %}
+        {% assign tutoriales = site.documents | where: "categoria", "tutoriales" %}
+        {% for doc in tutoriales %}
           <li>
-            <a href="{{ tutorial.url }}">{{ tutorial.name }}</a>
-            <h3>{{ tutorial.position }}</h3>
+            <a class="article" href="{{ doc.url }}">
+              <article>
+                <h3>{{ doc.titulo }}</h3>
+                <p>{{ doc.descripcion }}</p>
+              </article>
+            </a>
           </li>
         {% endfor %}
       </ul>
@@ -112,14 +124,28 @@
       <h1>Documentacion tecnica</h1>
       <ul>
           <li>
-            <a href="http://www.lavandeira.net/relearning-msx/">Relearning MSX</a>
-            <p>Series of articles about developing software for MSX computers</p>
+            <a class="article" href="http://www.lavandeira.net/relearning-msx">
+              <article>
+                <h3>Relearning MSX</h3>
+                <p>Series of articles about developing software for MSX computers</p>
+              </article>
+            </a>
           </li>
           <li>
-            <a href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">MSX-DOS</a>
+            <a class="article" href="http://map.grauw.nl/resources/dos2_environment.php">
+              <article>
+                <h3>MSX-DOS version 2</h3>
+                <p>The advanced disk operating system for MSX 2 computers.</p>
+              </article>
+            </a>
           </li>
           <li>
-            <a href="https://konamiman.github.io/MSX2-Technical-Handbook/">MSX2 Technical Handbook</a>
+            <a class="article" href="https://konamiman.github.io/MSX2-Technical-Handbook">
+              <article>
+                <h3>MSX2 Technical Handbook</h3>
+                <p>This is the (almost) full reference of the MSX2 system as published by ASCII Corporation in 1987.</p>
+              </article>
+            </a>
           </li>
       </ul>
     </div>
@@ -127,13 +153,28 @@
       <h1>Utilidades MSX</h1>
       <ul>
           <li>
-            <a href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">MSX-HUB</a>
+            <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
+              <article>
+                <h3>MSX-HUB</h3>
+                <p>Package manager for your MSX computer. Download software directy from the internet. Upgrade software when a new version is released ...</p>
+              </article>
+            </a>
           </li>
           <li>
-            <a href="https://www.louthrax.net/mgr/">Sofarun</a>
+            <a class="article" href="https://www.louthrax.net/mgr/">
+              <article>
+                <h3>Sofarun</h3>
+                <p>MSX tool designed to run disk (.DSK), cassette (.CAS) and cartridge (.ROM) images.</p>
+              </article>
+            </a>
           </li>
           <li>
-            <a href="https://www.msx.org/wiki/MultiMente">Multi Mente</a>
+            <a class="article" href="https://www.msx.org/wiki/MultiMente">
+              <article>
+                <h3>MultiMente</h3>
+                <p>Files manager for MSX-DOS 2, based on the file manager for MS-DOS called FILMTN</p>
+              </article>
+            </a>
           </li>
       </ul>
     </div>
@@ -141,7 +182,12 @@
       <h1>Libros sobre el MSX</h1>
       <ul>
           <li>
-            <a href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">MSX Made Simple</a>
+            <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
+              <article>
+                <h3>MSX Made Simple</h3>
+                <p>Learn MSX Basic from first principles and a brief introduction to machine code.</p>
+              </article>
+            </a>
           </li>
       </ul>
     </div>

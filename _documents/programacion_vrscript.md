@@ -1,7 +1,8 @@
 ---
-name: Programacion en VR-Script
-author: Alberto
-category: programming
+titulo: Programacion en VR-Script
+descripcion: Tutorial de programacion
+autor: Alberto
+categoria: programming
 order: 2
 ---
 # Lesson #001: Edición/Introducción

@@ -1,7 +1,7 @@
 ---
-name: Desactivar la carga del software del MSXVR
-author: Rober
-category: tutoriales
+name: Desactivar la carga del software del MSXVR.
+autor: Rober
+categoria: tutoriales
 ---
 Antes de realizar esta configuración es conveniente [activar los mensajes durante el inicio del sistema](./activar_mensajes_inicio.html).
 

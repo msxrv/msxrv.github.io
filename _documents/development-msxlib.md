@@ -1,7 +1,8 @@
 ---
-name: Libreria para desarollo nativo MSXLIB
-author: Alberto
-category: programming
+titulo: Libreria para desarollo nativo MSXLIB
+descripcion: Desarrolla juegos nativos compatibles MSX usando tu MSXVR
+autor: Alberto
+categoria: programming
 url: https://msxvr.com/vros-development-msxlib/
 ---
 # ¿Qué es MSXLIB?

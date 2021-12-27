@@ -1,7 +1,8 @@
 ---
-name: Editor de texto
-author: Alberto
-category: programming
+titulo: Editor de texto
+descripcion:  Como configurar el editor de texto
+autor: Alberto
+categoria: programming
 link: https://msxvr.com/vros-app-texteditor/
 order: 3
 ---
