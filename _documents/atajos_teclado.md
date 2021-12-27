@@ -5,7 +5,7 @@ autor: aobradors
 categoria: primeros_pasos
 order: 1
 ---
-# GLOBALES()
+# GLOBALES
 
 |             |             |             |        |
 |:------------|:------------|:------------|:-------|
