@@ -2,29 +2,17 @@
 title: Search
 layout: search
 ---
-Search results
-
 <script>
-var documents = [{
-  "name": "Lunr",
-  "text": "Like Solr, but much smaller, and not as bright."
-}, {
-  "name": "React",
-  "text": "A JavaScript library for building user interfaces."
-}, {
-  "name": "Lodash",
-  "text": "A modern JavaScript utility library delivering modularity, performance & extras."
-}]
-
-var idx = lunr(function () {
-  this.ref('name')
-  this.field('text')
-
-  documents.forEach(function (doc) {
-    this.add(doc)
-  }, this)
-})
-
-var results = idx.search("bright");
-
+  window.store = {
+    {% for doc in site.documents %}
+      "{{ doc.url | slugify }}": {
+        "title": "{{ doc.name | xml_escape }}",
+        "author": "{{ doc.author | xml_escape }}",
+        "category": "{{ doc.category | xml_escape }}",
+        "content": {{ doc.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ doc.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
 </script>
