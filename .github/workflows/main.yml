@@ -14,6 +14,12 @@ jobs:
       - name: Create Dist folder
         run: mkdir dist
 
+      - uses: actions/checkout@v2
+        with:
+          name: msxrv/documentos
+          path: dist/
+          ref: refs/heads/release
+
       - uses: docker://pandoc/latex:2.9
         with:
           args: -f markdown+pipe_tables  -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --metadata title="Cheatsheet"
@@ -30,11 +36,20 @@ jobs:
         with:
           args:  -s _documents/manual_programacion.md --toc -o dist/manual_programacion.epub --metadata title="Manual de Usuario"
 
-      - name: Deploy to Dropbox
-        uses: aTable/deploy-to-dropbox@v1.0.7
-        
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
           name: documents
           path:  dist/*      
+
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+
+      - name: commit
+        run: |
+          cd dist/
+          git add .
+          git commit -m "Publish new Manuals"
+          git push           
