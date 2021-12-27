@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: msxrv/documentos
+          token: ${{ secrets.ACTIONS_TOKEN }}
           path: ./documents
 
       - uses: docker://pandoc/latex:2.9
