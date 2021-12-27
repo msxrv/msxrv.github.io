@@ -189,6 +189,14 @@
               </article>
             </a>
           </li>
+          <li>
+            <a class="article" href="https://www.amazon.com/dp/1527298094?linkCode=ogi&th=1&psc=1&tag=sofferscom1-20">
+              <article>
+                <h3>Modern MSX BASIC Game Development</h3>
+                <p>Build retro games in MSX BASIC using modern tools</p>
+              </article>
+            </a>
+          </li>
       </ul>
     </div>
   </div>
