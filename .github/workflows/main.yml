@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Main repo
+        uses: actions/checkout@v2
         with:
           path: ./site
 
-      - uses: actions/checkout@v2
+      - name: Checkout Documents repo
+        uses: actions/checkout@master
         with:
           name: msxrv/documentos
           path: ./documents
