@@ -11,21 +11,21 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-      - name: Create Dist folder
-        run: mkdir dist
+        with:
+          path: ./site
 
       - uses: actions/checkout@v2
         with:
           name: msxrv/documentos
-          path: dist/
+          path: ./documents
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: -f markdown+pipe_tables  -s _documents/cheatsheet.md -o dist/cheatsheet.pdf --metadata title="Cheatsheet"
+          args: -f markdown+pipe_tables  -s site/_documents/cheatsheet.md -o documents/cheatsheet.pdf --metadata title="Cheatsheet"
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: -f markdown+pipe_tables  -s _documents/atajos_teclado.md -o dist/atajos.pdf --metadata title="Atajos de teclado"
+          args: -f markdown+pipe_tables  -s site/_documents/atajos_teclado.md -o documents/atajos.pdf --metadata title="Atajos de teclado"
 
       # - uses: docker://pandoc/latex:2.9
       #   with:
@@ -33,17 +33,11 @@ jobs:
 
       - uses: docker://pandoc/core:2.9
         with:
-          args:  -s _documents/manual_programacion.md --toc -o dist/manual_programacion.epub --metadata title="Manual de Usuario"
-
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: documents
-          path:  dist/*      
+          args:  -s site/_documents/manual_programacion.md --toc -o documents/manual_programacion.epub --metadata title="Manual de Usuario"
 
       - name: commit
         run: |
-          cd ./dist
+          cd ./documents
           git add .
           git config user.name github-actions
           git config user.email github-actions@github.com
