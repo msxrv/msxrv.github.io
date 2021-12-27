@@ -3,6 +3,7 @@ titulo: Cheat Sheet
 descripcion: Comandos útiles para ejecutar en VR-DOS
 autor: Aorante
 categoria: primeros_pasos
+order: 2
 ---
 # Cargando software con PLAY
 Hemos recopilado algunos comandos útiles para ejecutar con el player de MSXVR (Play).

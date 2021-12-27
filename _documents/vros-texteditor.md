@@ -2,7 +2,7 @@
 titulo: Editor de texto
 descripcion:  Como configurar el editor de texto
 autor: Alberto
-categoria: programming
+categoria: primeros_pasos
 link: https://msxvr.com/vros-app-texteditor/
 order: 3
 ---
@@ -11,9 +11,7 @@ El editor de texto es una herramienta que nos permite editar archivo de texto bi
 
 La forma de invocarse desde VR-DOS es:
 
-
 O bien podemos indicar un archivo existente o nuevo que queramos editar:
-
 
 # Menú
 

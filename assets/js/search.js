@@ -3,12 +3,14 @@
       var searchResults = document.getElementById('search-results');
   
       if (results.length) { // Are there any results?
-        var appendString = 'Encontrado ' + results.length + ' resultado' + (results.length > 1 ? "s" : "");
+        var appendString = '<div id="search-results-total">Encontrado ' + results.length + ' resultado' + (results.length > 1 ? "s" : "") + '</div>';
   
         for (var i = 0; i < results.length; i++) {  // Iterate over the results
           var item = store[results[i].ref];
-          appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+          appendString += '<article>';
+          appendString += '<a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
           appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+          appendString += '</article>';
         }
   
         searchResults.innerHTML = appendString;

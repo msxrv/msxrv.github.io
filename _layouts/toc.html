@@ -48,12 +48,12 @@
     </nav>
     <div id="header">
       <p>Documentacion MSXVR</p>
-      <h1>{{ page.name }}</h1>
-      <h3>Por {{ page.author }}</h3>
+      <h1>{{ page.titulo }}</h1>
+      <h3>Por {{ page.autor }}</h3>
     </div>
-    <div id="document-content">
+    <div id="document-content-toc">
         <div id="document">{{ content }}</div>
-        <div id="toc">{% include toc.html html=content %}</div>
+        <div id="toc">{% include toc.html html=content h_max=2 %}</div>
     </div>
     <footer class="footer footer-black footer-big">
       <hr/>

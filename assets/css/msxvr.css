@@ -96,6 +96,10 @@ h1 {
     padding: 10px;
 }
 
+#search-results li {
+    list-style: none;
+}
+
 ul#markdown-toc, #markdown-toc ul {
     list-style: none;
 }
@@ -126,13 +130,28 @@ section {
 
 #document-content {
     display: flex;
-    max-width: 1000px;
     margin: 0 auto;
+    max-width: 1000px;
 }
 
-#document {
+#document-content #document {
     max-width: 980px;
 }
+
+#document-content-toc {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#document-content-toc #document {
+    max-width: 600px;
+}
+
+#document-content-toc #toc {
+    padding: 0 20px;
+}
+
 #toc ul, #toc li {
     list-style: none;
 }
@@ -265,10 +284,9 @@ input#search-box {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    color: #999;
     float: left;
-    font: 16px Lucida Sans, Trebuchet MS, Tahoma, sans-serif;
-    height: 20px;
+    font: 14px;
+    height: 16px;
     padding: 10px;
     margin: 0 5px;
     width: 320px;
@@ -276,17 +294,34 @@ input#search-box {
 
 #search-container input[type="submit" i] {
     background-color: rgb(210, 210, 210);
-    border: 1px solid rgb(190, 190, 190);
+    border: 1px solid black;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     cursor: pointer;
-    height: 42px;
+    height: 40px;
     float: right;
     font: 15px Arial, Helvetica;
     padding: 0;
     text-transform: uppercase;
     width: 100px;
+}
+
+div#search-results-total {
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#search-results article {
+    margin-bottom: 30px;
+}
+
+#search-results h3 {
+    margin: 0;
+}
+
+#search-results p {
+    margin: 5px 0;
 }
 
 article {

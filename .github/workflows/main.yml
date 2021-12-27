@@ -30,6 +30,9 @@ jobs:
         with:
           args:  -s _documents/manual_programacion.md --toc -o dist/manual_programacion.epub --metadata title="Manual de Usuario"
 
+      - name: Deploy to Dropbox
+        uses: aTable/deploy-to-dropbox@v1.0.7
+        
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:

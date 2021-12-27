@@ -495,7 +495,7 @@ Ok
 | 1        | 0               | 0               |       |         |   |   |   |   |   |   |   |   |   |   |   |   |
 | 1        | 1               | 1               |       |         |   |   |   |   |   |   |   |   |   |   |   |   |
 
-## Matemáticas
+### Matemáticas
 
 En este apartado veremos el conjunto de instrucciones y operadores del que
 dispone VR‑BASIC para hacer cálculos matemáticos, desde los más sencillos hasta
