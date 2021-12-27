@@ -24,11 +24,11 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: -f markdown+pipe_tables  -s site/_documents/cheatsheet.md -o documents/cheatsheet.pdf --metadata title="Cheatsheet"
+          args: -f markdown+pipe_tables  -s site/_documents/cheatsheet.md -o documents/Cheatsheet.pdf --metadata title="Cheatsheet"
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: -f markdown+pipe_tables  -s site/_documents/atajos_teclado.md -o documents/atajos_teclado.pdf --metadata title="Atajos de teclado"
+          args: -f markdown+pipe_tables  -s site/_documents/atajos_teclado.md -o documents/Atajos_teclado.pdf --metadata title="Atajos de teclado"
 
       # - uses: docker://pandoc/latex:2.9
       #   with:
