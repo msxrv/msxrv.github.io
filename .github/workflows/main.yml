@@ -1,25 +1,13 @@
 name: CI
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ main ]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      #- name: Install xmllint
-      #  run: sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
-      
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Create Dist folder
         run: mkdir dist
@@ -32,28 +20,16 @@ jobs:
         with:
           args: -f markdown+pipe_tables  -s _documents/atajos_teclado.md -o dist/atajos.pdf --metadata title="Atajos de teclado"
 
-      # - uses: docker://pandoc/core:2.9
-      #   with:
-      #     args:  -s manual.md --toc -o manual.html --metadata title="Manual de Usuario"
+      - uses: docker://pandoc/core:2.9
+        with:
+         args:  -s manual.md --toc -o manual.html --metadata title="Manual de Usuario"
 
-      # - uses: docker://pandoc/core:2.9
-      #   with:
-      #     args:  -s manual.md --toc -o manual.epub --metadata title="Manual de Usuario"
+      - uses: docker://pandoc/core:2.9
+       with:
+         args:  -s _documents/manual.md --toc -o dist/manual.epub --metadata title="Manual de Usuario"
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
           name: documents
-          path:  dist/*
-
-      # - name: setup git config
-      #   run: |
-      #     git config user.name "GitHub Actions Bot"
-      #     git config user.email "<>"
-          
-      # - name: commit
-      #   run: |
-      #     # Stage the file, commit and push
-      #     git add .
-      #     git commit -m "Publish new Manuals"
-      #     git push       
+          path:  dist/*      
