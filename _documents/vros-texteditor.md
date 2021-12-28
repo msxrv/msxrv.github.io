@@ -19,7 +19,13 @@ O bien podemos indicar un archivo existente o nuevo que queramos editar:
 Local
 Al iniciar el editor se busca la existencia de un archivo «edit.ini» ubicado en la misma carpeta desde la que se ejecuta. En caso de hallarse, se leerá e inicializará el editor en función de su contenido. Un ejemplo:
 
-```bash
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+```s
 fontsize=2
 linenumbers=true
 theme=dark

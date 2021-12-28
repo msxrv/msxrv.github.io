@@ -6,7 +6,6 @@ github_username:  msxrv
 
 markdown: kramdown
 kramdown:
-  input: GFM
   syntax_highlighter: rouge
 
 collections:
