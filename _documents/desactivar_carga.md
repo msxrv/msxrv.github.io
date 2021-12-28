@@ -1,5 +1,6 @@
 ---
-name: Desactivar la carga del software del MSXVR.
+titulo: Desactivar la carga del software del MSXVR.
+descripc Toma el control del sistema antes de que este inicie.
 autor: Rober
 categoria: tutoriales
 ---
