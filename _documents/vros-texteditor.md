@@ -19,6 +19,7 @@ O bien podemos indicar un archivo existente o nuevo que queramos editar:
 Local
 Al iniciar el editor se busca la existencia de un archivo «edit.ini» ubicado en la misma carpeta desde la que se ejecuta. En caso de hallarse, se leerá e inicializará el editor en función de su contenido. Un ejemplo:
 
+```bash
 fontsize=2
 linenumbers=true
 theme=dark
@@ -29,6 +30,8 @@ logger=false
 codehelper=false
 openfile=D:/tuto_demo/monkey/monkey.pi
 windowed=true
+```
+
 Genérico
 Del mismo modo que el local, también se buscará un archivo en «$SYSTEM:/user/edit_config.ini». En caso de encontrarse, se leerá su contenido e inicializará el editor. NOTA: Los parámetros leídos en el INI Local siempre son más prioritarios que el genérico.
 

@@ -5,9 +5,9 @@ url: ""
 github_username:  msxrv
 
 markdown: kramdown
-
-kramdown: 
-  toc_levels: "1,2"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 collections:
   documents:
