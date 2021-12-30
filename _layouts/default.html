@@ -36,12 +36,6 @@
     <section>
       {{ content }}
     </section>
-    <footer class="footer footer-black footer-big">
-      <hr/>
-        <div class="copyright pull-right">
-                MSXVR is a trademark of VIKALB PROGRAMMING S.L.			
-        </div>
-      </div>    
-    </footer>
+    {% include footer.html html=content %}
   </body>
 </html>
