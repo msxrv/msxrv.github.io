@@ -78,7 +78,6 @@
         {% endfor %}
       </ul>
     </div>
-
     <div class="box">
       <h1>Aprende a programar</h1>
       <ul>
@@ -95,7 +94,6 @@
         {% endfor %}
       </ul>
     </div>
-
     <div class="box">
       <h1>Tutoriales</h1>
       <ul>
@@ -110,6 +108,93 @@
             </a>
           </li>
         {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-header">
+   <h2>Otros recursos</h2>
+  </div>
+  <div class="row">
+    <div class="box">
+      <h1>Programacion de videojuegos</h1>
+      <ul>
+          <li>
+            <a class="article" href="https://www.youtube.com/playlist?list=PL_xRyXins848jkwC9Coy7B4N5XTOnQZzz">
+              <article>
+                <h3>Intro to Game Programming (C++)</h3>
+                <p>Curso de programacion de videojuegosen YouTube por la Memorial University</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a class="article" href="http://map.grauw.nl/resources/dos2_environment.php">
+              <article>
+                <h3>MSX-DOS version 2</h3>
+                <p>The advanced disk operating system for MSX 2 computers.</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a class="article" href="https://konamiman.github.io/MSX2-Technical-Handbook">
+              <article>
+                <h3>MSX2 Technical Handbook</h3>
+                <p>This is the (almost) full reference of the MSX2 system as published by ASCII Corporation in 1987.</p>
+              </article>
+            </a>
+          </li>
+      </ul>
+    </div>
+      <div class="box">
+      <h1>Utilidades MSX</h1>
+      <ul>
+          <li>
+            <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
+              <article>
+                <h3>MSX-HUB</h3>
+                <p>Package manager for your MSX computer. Download software directy from the internet. Upgrade software when a new version is released ...</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a class="article" href="https://www.louthrax.net/mgr/">
+              <article>
+                <h3>Sofarun</h3>
+                <p>MSX tool designed to run disk (.DSK), cassette (.CAS) and cartridge (.ROM) images.</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a class="article" href="https://www.msx.org/wiki/MultiMente">
+              <article>
+                <h3>MultiMente</h3>
+                <p>Files manager for MSX-DOS 2, based on the file manager for MS-DOS called FILMTN</p>
+              </article>
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="box">
+      <h1>Libros sobre el MSX</h1>
+      <ul>
+          <li>
+            <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
+              <article>
+                <h3>MSX Made Simple</h3>
+                <p>Learn MSX Basic from first principles and a brief introduction to machine code.</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a class="article" href="https://www.amazon.com/dp/1527298094?linkCode=ogi&th=1&psc=1&tag=sofferscom1-20">
+              <article>
+                <h3>Modern MSX BASIC Game Development</h3>
+                <p>Build retro games in MSX BASIC using modern tools</p>
+              </article>
+            </a>
+          </li>
       </ul>
     </div>
   </div>
