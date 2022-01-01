@@ -115,7 +115,7 @@
 
 <div class="section">
   <div class="section-header">
-   <h2>Otros recursos</h2>
+   <h2>Recursos MSX</h2>
   </div>
   <div class="row">
     <div class="box">
