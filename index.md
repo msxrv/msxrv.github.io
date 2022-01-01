@@ -119,13 +119,13 @@
   </div>
   <div class="row">
     <div class="box">
-      <h1>Programacion de videojuegos</h1>
+      <h1>Documentacion tecnica</h1>
       <ul>
           <li>
-            <a class="article" href="https://www.youtube.com/playlist?list=PL_xRyXins848jkwC9Coy7B4N5XTOnQZzz">
+            <a class="article" href="http://www.lavandeira.net/relearning-msx/">
               <article>
-                <h3>Intro to Game Programming (C++)</h3>
-                <p>Curso de programacion de videojuegosen YouTube por la Memorial University</p>
+                <h3>Relearning MSX</h3>
+                <p>Series of articles about developing software for MSX computers</p>
               </article>
             </a>
           </li>
