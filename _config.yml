@@ -43,7 +43,7 @@ plugins:
   - jekyll-feed
 
 sass:
-  sass_dir: /assets/css/mixins
+  sass_dir: /assets/css
   style: compressed
 
   # Exclude from processing.
