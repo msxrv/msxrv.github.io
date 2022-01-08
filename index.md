@@ -148,32 +148,33 @@
       </ul>
     </div>
       <div class="box">
-      <h1>Utilidades MSX</h1>
-      <ul>
-          <li>
-            <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
-              <article>
-                <h3>MSX-HUB</h3>
-                <p>Sistema de gestión de paquetes para el MSX. Descarga y actualiza tu software de MSX directamente desde Internet</p>
-              </article>
-            </a>
-          </li>
-          <li>
-            <a class="article" href="https://www.louthrax.net/mgr/">
-              <article>
-                <h3>Sofarun</h3>
-                <p>Herramienta para ejecutar imágenes en formato .DSK, .CAS y .ROM.</p>
-            </a>
-          </li>
-          <li>
-            <a class="article" href="https://www.msx.org/wiki/MultiMente">
-              <article>
-                <h3>MultiMente</h3>
-                <p>Administrador de archivos para el MSX-DOS 2, basado en FILMTN, el administrador de archivos para MS-DOS.</p>
-              </article>
-            </a>
-          </li>
-      </ul>
+        <h1>Utilidades MSX</h1>
+        <ul>
+            <li>
+              <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
+                <article>
+                  <h3>MSX-HUB</h3>
+                  <p>Sistema de gestión de paquetes para el MSX. Descarga y actualiza tu software de MSX directamente desde Internet</p>
+                </article>
+              </a>
+            </li>
+            <li>
+              <a class="article" href="https://www.louthrax.net/mgr/">
+                <article>
+                  <h3>Sofarun</h3>
+                  <p>Herramienta para ejecutar imágenes en formato .DSK, .CAS y .ROM.</p>
+                </article>
+              </a>
+            </li>
+            <li>
+              <a class="article" href="https://www.msx.org/wiki/MultiMente">
+                <article>
+                  <h3>MultiMente</h3>
+                  <p>Administrador de archivos para el MSX-DOS 2, basado en FILMTN, el administrador de archivos para MS-DOS.</p>
+                </article>
+              </a>
+            </li>
+        </ul>
     </div>
     <div class="box">
       <h1>Libros sobre el MSX</h1>
