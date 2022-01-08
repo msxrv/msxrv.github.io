@@ -40,10 +40,6 @@ h1 {
     list-style: none;
 }
 
-ul#markdown-toc, #markdown-toc ul {
-    list-style: none;
-}
-
 section {
     margin: 0 auto;
     max-width: 960px;
@@ -76,24 +72,6 @@ section {
 
 #document-content #document {
     max-width: 980px;
-}
-
-#document-content-toc {
-    display: flex;
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-#document-content-toc #document {
-    max-width: 600px;
-}
-
-#document-content-toc #toc {
-    padding: 0 20px;
-}
-
-#toc ul, #toc li {
-    list-style: none;
 }
 
 .row {
@@ -174,8 +152,6 @@ footer.footer.footer-black a {
 .footer-big .footer-menu li a {
     padding: 15px;
 }
-
-
 
 .msxvr-link {
     display: flex;
@@ -299,3 +275,5 @@ a:hover article h3 {
     text-align: right;
     margin: 10px 0;
 }
+
+@import "mixins/responsive";

@@ -1,0 +1,24 @@
+---
+---
+
+ul#markdown-toc, #markdown-toc ul {
+    list-style: none;
+}
+
+#document-content-toc {
+    display: flex;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#document-content-toc #document {
+    max-width: 600px;
+}
+
+#document-content-toc #toc {
+    padding: 0 20px;
+}
+
+#toc ul, #toc li {
+    list-style: none;
+}
