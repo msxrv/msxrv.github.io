@@ -170,7 +170,7 @@
               <a class="article" href="https://www.msx.org/wiki/MultiMente">
                 <article>
                   <h3>MultiMente</h3>
-                  <p>Administrador de archivos para el MSX-DOS 2, basado en FILMTN, el administrador de archivos para MS-DOS.</p>
+                  <p>Administrador de archivos para el MSX-DOS 2, basado en el administrador de archivos para MS-DOS FILMTN.</p>
                 </article>
               </a>
             </li>
@@ -212,7 +212,7 @@
             <a class="article" href="https://www.youtube.com/playlist?list=PL_xRyXins848jkwC9Coy7B4N5XTOnQZzz">
               <article>
                 <h3>Intro to Game Programming (C++)</h3>
-                <p>Curso de programacion de videojuegos en YouTube por la Memorial University</p>
+                <p>Curso de programación de videojuegos en YouTube por la Memorial University</p>
               </article>
             </a>
           </li>

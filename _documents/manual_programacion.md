@@ -125,8 +125,9 @@ mejoren la potencia y características de la máquina.
 
 *Términos:*
 
+|							|							|
+|:--------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
 | SISTEMA OPERATIVO BASE | Es el sistema operativo que inicia el ordenador. Por ejemplo: Un Linux, Android, Windows o uno creado ad hoc para un FPGA.                  |
-|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | APLICACIÓN MSXVR       | Es una aplicación nativa creada para el Sistema Operativo Base.                                                                             |
 | NATIVE ENGINE          | Hace referencia al conjunto de librerías nativas, compatibles con el Sistema Operativo Base y con un interfaz accesible mediante VR‑SCRIPT. |
 | APLICACIÓN VR-SCRIPT   | Es una aplicación programada íntegramente en VR‑SCRIPT.                                                                                     |

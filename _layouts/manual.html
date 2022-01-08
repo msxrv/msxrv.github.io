@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.name }}</title>
+    <link rel="icon" href="https://msxvr.com/wp-content/uploads/2019/02/cropped-msx_vritualizer_squared_logo_1024-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://msxvr.com/wp-content/uploads/2019/02/cropped-msx_vritualizer_squared_logo_1024-180x180.png" />
+    <link rel="stylesheet" href="/assets/css/msxvr.css">
+    <link rel="stylesheet" href="/assets/css/document.css">
+    <link rel="stylesheet" href="/assets/css/code.css">
+  </head>
+  <body>
+    {% include navigation.html html=content %}
+    <div id="header">
+      <div>Documentacion MSXVR</div>
+      <h1>{{ page.titulo }}</h1>
+      <hdiv id="metadata">Por {{ page.autor }}</div>
+    </div>
+    <div id="document-content-toc">
+        <div id="document">{{ content }}</div>
+        <div id="toc">{% include toc.html html=content h_max=2 %}</div>
+    </div>
+    {% include footer.html html=content %}
+  </body>
+</html>
