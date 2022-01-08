@@ -11,7 +11,7 @@
         </div>
         <div class="msxvr-link-description">
           <a href="https://www.youtube.com/c/MSXVRComputer">Canal Youtube</a>
-          <p>Demos, tutoriales y otros videos para aprender mas sobre tu MSXVR</p>
+          <p>Demos, tutoriales y otros vídeos para aprender mas sobre tu MSXVR.</p>
         </div>
       </div>
     </div>
@@ -24,7 +24,7 @@
         </div>
         <div class="msxvr-link-description">
           <a href="https://www.guilded.gg/i/pPAaqQaE">Guilded</a>
-          <p>Unete al chat de la comunidad de usuarios y desarolladores</p>
+          <p>Únete al chat de la comunidad de usuarios y desarolladores.</p>
         </div>
       </div>
     </div>
@@ -37,7 +37,7 @@
         </div>
         <div class="msxvr-link-description">
           <a href="http://msxvr.es/doc/forum/">Forum MSXVR</a>
-          <p>Anuncia o discute cualquier tema relacionado con el MSXVR</p>
+          <p>Anuncia o discute cualquier tema relacionado con el MSXVR.</p>
         </div>
       </div>
     </div>
@@ -50,7 +50,7 @@
         </div>
         <div class="msxvr-link-description">
           <a href="https://github.com/msxvr">Github</a>
-          <p>Repositorio oficial con ejemplos de codigo y utilidades para tu maquina</p>
+          <p>Repositorio oficial con ejemplos de código y utilidades para tu máquina.</p>
         </div>
       </div>
     </div>
@@ -119,13 +119,13 @@
   </div>
   <div class="row">
     <div class="box">
-      <h1>Documentacion tecnica</h1>
+      <h1>Documentación técnica</h1>
       <ul>
           <li>
             <a class="article" href="http://www.lavandeira.net/relearning-msx/">
               <article>
                 <h3>Relearning MSX</h3>
-                <p>Series of articles about developing software for MSX computers</p>
+                <p>Series de articulos sobre desarrollo de software para el MSX.</p>
               </article>
             </a>
           </li>
@@ -133,7 +133,7 @@
             <a class="article" href="http://map.grauw.nl/resources/dos2_environment.php">
               <article>
                 <h3>MSX-DOS version 2</h3>
-                <p>The advanced disk operating system for MSX 2 computers.</p>
+                <p>Sistema operativo de disco para ordenadores MSX 2.</p>
               </article>
             </a>
           </li>
@@ -141,7 +141,7 @@
             <a class="article" href="https://konamiman.github.io/MSX2-Technical-Handbook">
               <article>
                 <h3>MSX2 Technical Handbook</h3>
-                <p>This is the (almost) full reference of the MSX2 system as published by ASCII Corporation in 1987.</p>
+                <p>Manual de referencia del sistema MSX2 publicada por la ASCII Corporation en 1987.</p>
               </article>
             </a>
           </li>
@@ -154,7 +154,7 @@
             <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
               <article>
                 <h3>MSX-HUB</h3>
-                <p>Package manager for your MSX computer. Download software directy from the internet. Upgrade software when a new version is released ...</p>
+                <p>Sistema de gestión de paquetes para el MSX. Descarga y actualiza tu software de MSX directamente desde Internet</p>
               </article>
             </a>
           </li>
@@ -162,15 +162,14 @@
             <a class="article" href="https://www.louthrax.net/mgr/">
               <article>
                 <h3>Sofarun</h3>
-                <p>MSX tool designed to run disk (.DSK), cassette (.CAS) and cartridge (.ROM) images.</p>
-              </article>
+                <p>Herramienta para ejecutar imágenes en formato .DSK, .CAS y .ROM.</p>
             </a>
           </li>
           <li>
             <a class="article" href="https://www.msx.org/wiki/MultiMente">
               <article>
                 <h3>MultiMente</h3>
-                <p>Files manager for MSX-DOS 2, based on the file manager for MS-DOS called FILMTN</p>
+                <p>Administrador de archivos para el MSX-DOS 2, basado en FILMTN, el administrador de archivos para MS-DOS.</p>
               </article>
             </a>
           </li>
@@ -183,7 +182,7 @@
             <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
               <article>
                 <h3>MSX Made Simple</h3>
-                <p>Learn MSX Basic from first principles and a brief introduction to machine code.</p>
+                <p>Aprende MSX Basic y breve introducción al codigo maquina.</p>
               </article>
             </a>
           </li>
@@ -191,7 +190,7 @@
             <a class="article" href="https://www.amazon.com/dp/1527298094?linkCode=ogi&th=1&psc=1&tag=sofferscom1-20">
               <article>
                 <h3>Modern MSX BASIC Game Development</h3>
-                <p>Build retro games in MSX BASIC using modern tools</p>
+                <p>Desarrolla juegos retro en MSX Basic usando herramientas modernas.</p>
               </article>
             </a>
           </li>
@@ -206,7 +205,7 @@
   </div>
   <div class="row">
     <div class="box">
-      <h1>Programacion de videojuegos</h1>
+      <h1>Programación de videojuegos</h1>
       <ul>
           <li>
             <a class="article" href="https://www.youtube.com/playlist?list=PL_xRyXins848jkwC9Coy7B4N5XTOnQZzz">
