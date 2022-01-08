@@ -1,4 +1,13 @@
 @media screen and (max-width: 600px) {
+
+    html, body {
+        overflow-x: hidden;
+      }
+    
+    body {
+        position: relative
+    }
+
     .navbar img {
         height: 40px;
     }
@@ -12,6 +21,14 @@
     }
 
     .box {
+        width: 100%;
+    }
+    
+    #document-content {
+        padding: 0 5px;
+    }
+
+    #document-content #document {
         width: 100%;
     }
 }
