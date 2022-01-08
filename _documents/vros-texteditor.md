@@ -11,12 +11,21 @@ El editor de texto es una herramienta que nos permite editar archivo de texto bi
 
 La forma de invocarse desde VR-DOS es:
 
+```
+C:/> edit
+```
+
 O bien podemos indicar un archivo existente o nuevo que queramos editar:
 
+```
+C:/> edit catalogo.bat
+```
+
 # Menú
+![Menu](/assets/documents/vros-texteditor/menu.png)
 
 # Archivo INI
-Local
+## Local
 Al iniciar el editor se busca la existencia de un archivo «edit.ini» ubicado en la misma carpeta desde la que se ejecuta. En caso de hallarse, se leerá e inicializará el editor en función de su contenido. Un ejemplo:
 
 ```ruby
@@ -38,9 +47,10 @@ openfile=D:/tuto_demo/monkey/monkey.pi
 windowed=true
 ```
 
-Genérico
+## Genérico
 Del mismo modo que el local, también se buscará un archivo en «$SYSTEM:/user/edit_config.ini». En caso de encontrarse, se leerá su contenido e inicializará el editor. NOTA: Los parámetros leídos en el INI Local siempre son más prioritarios que el genérico.
 
+```
 fontsize=12
 fontname=lucon
 theme=dark
@@ -70,7 +80,9 @@ fg_reserved_2=RGB(0,100,200)
 fg_delimiter_hl=RGB(255,255,255)
 bg_delimiter_hl=RGB(255,0,255)
 fg_delimiter=RGB(255,255,255
-Propiedades que se pueden establecer en un INI
+```
+
+## Propiedades que se pueden establecer en un INI
 Key	Concepto
 [generic]	A partir de aquí se pueden usar las claves son de uso genérico. Este contexto es el que hay por defecto en cualquier INI.
 [common-colors-bright]	Establece los colores para el tema «bright» de todos los modos de resaltado de sintaxis existentes.
@@ -187,4 +199,9 @@ Por defecto se lanza el script del archivo de texto en curso, sin embargo, es po
 
 
 Panel de propiedades de ejecución
-NOTA: Aunque pongamos un nombre de archivo, si tenemos activado el check de «siempre ejecutar el archivo abierto», se ignorará, o sea, siempre ejecutaremos el archivo abierto en curso.
+
+---
+**NOTAS**: Aunque pongamos un nombre de archivo, si tenemos activado el check de «siempre ejecutar el archivo abierto», se ignorará, o sea, siempre ejecutaremos el archivo abierto en curso.
+
+---
+

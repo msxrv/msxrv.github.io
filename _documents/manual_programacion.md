@@ -3,7 +3,7 @@ titulo: Manual de programacion
 descripcion: Aprende a programar en VR-Basic, VR-DOS y VR-Script
 autor: Alberto
 categoria: programming
-layout: toc
+layout: manual
 order: 1
 ---
 # Editorial
