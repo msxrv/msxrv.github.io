@@ -178,7 +178,7 @@ En función del tipo de extensión de archivo que estemos editando, automáticam
 
 # Atajos de teclado
 
-| Atajo	            | Funcionalidad                          |
+| Atajo	            | Funcionalidad                 |
 |:------------------|:------------------------------|
 | LCTRL + S	        | Guardar archivo               |
 | LCTRL + LSHIFT + S| Guardar archivo como          |
