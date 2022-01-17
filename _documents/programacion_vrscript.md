@@ -1,6 +1,6 @@
 ---
 titulo: Programación en VR-Script
-descripcion: Tutorial de programación
+descripcion: Videotutorial de programación en VR-Script
 autor: Alberto
 categoria: programming
 order: 2

@@ -119,6 +119,35 @@
   </div>
   <div class="row">
     <div class="box">
+        <h1>Tutoriales</h1>
+        <ul>
+          <li>
+            <a class="article" href="https://riunet.upv.es/bitstream/handle/10251/145214/Memoria.pdf?sequence=2&isAllowed=y">
+              <article>
+                <h3>Curso de Assembler rápido</h3>
+                <p>Videotutoriales para iniciarse en la programación en ensamblador por BitVision.</p>
+              </article>
+            </a>
+          </li> 
+          <li>
+            <a class="article" href="https://riunet.upv.es/bitstream/handle/10251/145214/Memoria.pdf?sequence=2&isAllowed=y">
+              <article>
+                <h3>Tutorial de desarrollo de videojuegos</h3>
+                <p>Desarrollar videojuegos para el MSX a través de la compilación cruzada de proyectos mediante la librería FUSION-C.</p>
+              </article>
+            </a>
+          </li>          
+          <li>
+            <a class="article" href="https://konamiman.github.io/MSX2-Technical-Handbook">
+              <article>
+                <h3>Z80 Assembly programming for the MSX and MSX2</h3>
+                <p>Learn Assembly Programming with ChibiAkumas.</p>
+              </article>
+            </a>
+          </li>
+        </ul>
+      </div>        
+    <div class="box">
       <h1>Documentación técnica</h1>
       <ul>
           <li>
@@ -128,7 +157,7 @@
                 <p>Series de articulos sobre desarrollo de software para el MSX.</p>
               </article>
             </a>
-          </li>
+          </li>          
           <li>
             <a class="article" href="http://map.grauw.nl/resources/dos2_environment.php">
               <article>
@@ -150,6 +179,14 @@
       <div class="box">
         <h1>Utilidades MSX</h1>
         <ul>
+            <li>
+              <a class="article" href="https://8bitworkshop.com/v3.9.0/?platform=msx&file=helloworld.asm#">
+                <article>
+                  <h3>8bitworkshop</h3>
+                  <p>Editor the codigo para maquinas de 8 bits en tu navegador</p>
+                </article>
+              </a>
+            </li>
             <li>
               <a class="article" href="https://books.google.com/books/about/MSX_Made_Simple.html?id=Qo-GDAAAQBAJ">
                 <article>
@@ -176,6 +213,9 @@
             </li>
         </ul>
     </div>
+  </div>
+  <hr/>
+  <div class="row">
     <div class="box">
       <h1>Libros sobre el MSX</h1>
       <ul>
@@ -195,6 +235,14 @@
               </article>
             </a>
           </li>
+          <li>
+            <a class="article" href="https://www.amazon.com/FUSION-C-MSX-Library-complete-journey/dp/1730828612">
+              <article>
+                <h3>FUSION-C: MSX C Library complete journey</h3>
+                <p>With FUSION-C you will be able to code games or any other softwares for the MSX computers, in C. The library is compatible for MSX1, MSX2, MSX2+, and MSX Turbo-R and can take advantage of the hardware of each model.</p>
+              </article>
+            </a>
+          </li>        
       </ul>
     </div>
   </div>
