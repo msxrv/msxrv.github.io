@@ -65,7 +65,7 @@
     <div class="box">
       <h1>Primeros pasos</h1>
       <ul>
-      {% assign primeros_pasos = site.documents | where: "categoria", "primeros_pasos" %}
+      {% assign primeros_pasos = site.documents | where: "categoria", "primeros_pasos" | where: "status" , status != "wip" %}
         {% for doc in primeros_pasos %}
           <li>
             <a class="article" href="{{ doc.url }}">
@@ -81,7 +81,7 @@
     <div class="box">
       <h1>Aprende a programar</h1>
       <ul>
-        {% assign programacion = site.documents | where: "categoria", "programming" %}
+        {% assign programacion = site.documents | where: "categoria" , "programming" | where: "status" , status != "wip" %}
         {% for doc in programacion %}
           <li>
             <a class="article" href="{{ doc.url }}">
@@ -97,7 +97,7 @@
     <div class="box">
       <h1>Tutoriales</h1>
       <ul>
-        {% assign tutoriales = site.documents | where: "categoria", "tutoriales" %}
+        {% assign tutoriales = site.documents | where: "categoria", "tutoriales" | where: "status" , status != "wip" %}
         {% for doc in tutoriales %}
           <li>
             <a class="article" href="{{ doc.url }}">
