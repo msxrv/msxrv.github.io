@@ -2,7 +2,7 @@
 titulo: GitHub
 descripcion: Desarrolla
 autor: Fluffy
-categoria: programming
+categoria: wip
 status: wip
 ---
 # Que es Git
