@@ -19,11 +19,11 @@
       <div class="msxvr-link">
         <div class="msxvr-link-logo">
           <figure class="image is-64x64">
-            <img src="assets/img/guilded-logo-reco.png">
+            <img src="assets/img/telegram.png">
           </figure>
         </div>
         <div class="msxvr-link-description">
-          <a href="https://www.guilded.gg/i/pPAaqQaE">Guilded</a>
+          <a href="https://telegram.org/">Telegram</a>
           <p>Únete al chat de la comunidad de usuarios y desarolladores.</p>
         </div>
       </div>
