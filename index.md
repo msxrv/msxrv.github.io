@@ -19,11 +19,11 @@
       <div class="msxvr-link">
         <div class="msxvr-link-logo">
           <figure class="image is-64x64">
-            <img src="assets/img/guilded-logo-reco.png">
+            <img src="assets/img/telegram.png">
           </figure>
         </div>
         <div class="msxvr-link-description">
-          <a href="https://www.guilded.gg/i/pPAaqQaE">Guilded</a>
+          <a href="https://telegram.org/">Telegram</a>
           <p>Únete al chat de la comunidad de usuarios y desarolladores.</p>
         </div>
       </div>
@@ -224,6 +224,14 @@
               <article>
                 <h3>MSX Made Simple</h3>
                 <p>Aprende MSX Basic y breve introducción al codigo maquina.</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a class="article" href="https://archive.org/details/LenguajeMaquinaParaMSX">
+              <article>
+                <h3>Lenguaje Máquina Para MSX</h3>
+                <p>Introducción y Conceptos avanzados.</p>
               </article>
             </a>
           </li>
