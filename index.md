@@ -228,6 +228,14 @@
             </a>
           </li>
           <li>
+            <a class="article" href="https://archive.org/details/LenguajeMaquinaParaMSX">
+              <article>
+                <h3>Lenguaje Máquina Para MSX</h3>
+                <p>Introducción y Conceptos avanzados.</p>
+              </article>
+            </a>
+          </li>
+          <li>
             <a class="article" href="https://www.amazon.com/dp/1527298094?linkCode=ogi&th=1&psc=1&tag=sofferscom1-20">
               <article>
                 <h3>Modern MSX BASIC Game Development</h3>
