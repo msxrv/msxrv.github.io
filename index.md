@@ -149,7 +149,23 @@
       </div>        
     <div class="box">
       <h1>Documentación técnica</h1>
-      <ul>
+      <ul>      
+          <li>
+            <a class="article" href="https://github.com/gseidler/The-MSX-Red-Book/blob/master/the_msx_red_book.md/">
+              <article>
+                <h3>The MSX Red Book</h3>
+                <p>El objectivo de este libro es dar una descripcion del software y hardware estandard del MSX, con un nivel de detalle suficiente para satisfecer al usuario mas exigente, el programador de codigo maquina.</p>
+              </article>
+            </a>
+          </li>
+          <li>
+            <a class="article" href="./assets/documets/lenguaje_maquina.pdf">
+              <article>
+                <h3>Lenguaje Máquina para MSX</h3>
+                <p>El propósito que persigue este libro es enseñarte a programar en el código máquina de los ordenadores MSX, es decir, programar el microprocesador Z-80. Cuando digo que vas a aprender a programar, me refiero a que, al final de haber estudiado este libro, serás capaz de hacer por tt mismo rutinas que utilicen todo lo que te ofrece tu MSX.</p>
+              </article>
+            </a>
+          </li>            
           <li>
             <a class="article" href="http://www.lavandeira.net/relearning-msx/">
               <article>
@@ -157,7 +173,7 @@
                 <p>Series de articulos sobre desarrollo de software para el MSX.</p>
               </article>
             </a>
-          </li>          
+          </li>                 
           <li>
             <a class="article" href="http://map.grauw.nl/resources/dos2_environment.php">
               <article>
