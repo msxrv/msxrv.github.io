@@ -159,7 +159,7 @@
             </a>
           </li>
           <li>
-            <a class="article" href="./assets/documets/lenguaje_maquina.pdf">
+            <a class="article" href="./assets/documents/lenguaje_maquina.pdf">
               <article>
                 <h3>Lenguaje Máquina para MSX</h3>
                 <p>El propósito que persigue este libro es enseñarte a programar en el código máquina de los ordenadores MSX, es decir, programar el microprocesador Z-80. Cuando digo que vas a aprender a programar, me refiero a que, al final de haber estudiado este libro, serás capaz de hacer por tt mismo rutinas que utilicen todo lo que te ofrece tu MSX.</p>
