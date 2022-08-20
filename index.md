@@ -252,7 +252,7 @@
             </a>
           </li>
           <li>
-            <a class="article" href="https://archive.org/details/LenguajeMaquinaParaMSX">
+            <a class="article" href="assets/documents/lenguaje_maquina.pdf">
               <article>
                 <h3>Lenguaje Máquina Para MSX</h3>
                 <p>Introducción y Conceptos avanzados.</p>
