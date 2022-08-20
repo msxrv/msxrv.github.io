@@ -244,14 +244,21 @@
             </a>
           </li>
           <li>
+            <a class="article" href="assets/documents//practical_msx_machine_code_programming_steve_webb.pdf">
+              <article>
+                <h3>Practical MSX Machine Code Programming</h3>
+                <p>The intention of this book is to introduce you to Machine Code programming on MSX computers.</p>
+              </article>
+            </a>
+          </li>
+          <li>
             <a class="article" href="https://archive.org/details/LenguajeMaquinaParaMSX">
               <article>
                 <h3>Lenguaje Máquina Para MSX</h3>
                 <p>Introducción y Conceptos avanzados.</p>
               </article>
             </a>
-          </li>
-          <li>
+          </li>          <li>
             <a class="article" href="https://www.amazon.com/dp/1527298094?linkCode=ogi&th=1&psc=1&tag=sofferscom1-20">
               <article>
                 <h3>Modern MSX BASIC Game Development</h3>
